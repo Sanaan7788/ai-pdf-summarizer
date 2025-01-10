@@ -4,7 +4,7 @@ import os #for environment variable management
 def main():
     st.set_page_config(page_title="PDF summarizer")
 
-    st.title("PDF Summariing App")
+    st.title("PDF Summarizing App")
     st.write("Summarize your pdf files in just a few seconds.")
     st.divider()
 
@@ -12,5 +12,5 @@ def main():
 
     submit =st.button("Generate Summary")
 
-    if __name__=="__main__":
-        main()
+if __name__=="__main__":
+    main()
