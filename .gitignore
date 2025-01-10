@@ -1,0 +1,42 @@
+# Byte-compiled / generated files
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Virtual environment directories
+env/
+venv/
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+
+# Compiled files
+*.pyo
+*.so
+
+# DevContainers configuration (optional, if local-only)
+.devcontainer/
+
+# Dependency cache
+.pip/
+
+# Large files
+*.zip
+*.tar.gz
+*.pdf
+*.docx
+
+# LangChain cache or model files (if applicable)
+.cache/
+langchain_cache/
+
+# PyPDF processed files
+*.processed
